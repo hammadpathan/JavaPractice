@@ -1,0 +1,2 @@
+Write a program that processes payments. Initially, it only supports Credit Cards.
+Later, the business wants to add PayPal without rewriting the existing code.
