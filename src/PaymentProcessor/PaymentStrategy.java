@@ -1,5 +1,5 @@
 package PaymentProcessor;
 
 interface PaymentStrategy {
-    void pay (double amount);
+    void pay(double amount);
 }

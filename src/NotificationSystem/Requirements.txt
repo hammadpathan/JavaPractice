@@ -1,0 +1,2 @@
+Create a service that sends a welcome message to a user.
+It should be able to switch between Email and SMS without breaking the core logic.
