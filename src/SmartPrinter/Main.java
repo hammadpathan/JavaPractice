@@ -1,4 +1,5 @@
 package SmartPrinter;
+import java.util.Scanner;
 
 public class Main {
      public static void main(String[] args) {
@@ -22,5 +23,12 @@ public class Main {
         cprinter.scan(doc2);
         cprinter.fax(doc2);
 
+        Scanner input = new Scanner(System.in);
+        System.out.println("Write contents for a new file");
+
+        String contents = input.nextLine();
+        Document userDoc = new Document(contents);
+
+        sprinter.print(userDoc);
      }
 }
