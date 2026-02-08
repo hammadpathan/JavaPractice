@@ -1,0 +1,1 @@
+You have a multi-function printer (Print, Scan, Fax) and a simple printer (Print only).
